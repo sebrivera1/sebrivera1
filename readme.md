@@ -8,7 +8,7 @@ I lead applied AI/ML teams and build the systems myself: agent workflows, retrie
 
 - **Leading AI/ML delivery:** turning vague business problems into measurable ML products, then building the team, delivery practices, and evaluation standards around them.
 - **Agentic and LLM systems:** multi-agent workflows with LangGraph and CrewAI, RAG pipelines, LoRA/QLoRA fine-tuning, and self-hosted model serving.
-- **Data engineering at scale:** PySpark pipelines, feature stores, versioned data lakes, and orchestrated training workflows.
+- **Data engineering at scale:** Spark pipelines, feature stores, versioned data lakes, and orchestrated training workflows.
 - **Quantitative research:** factor construction, backtesting, time series, and careful handling of leakage, overfitting, and uncertainty.
 - **Production engineering:** shipping and running real systems, including backends, integrations, security hardening, CI/CD, and incident response.
 
@@ -50,12 +50,6 @@ I lead applied AI/ML teams and build the systems myself: agent workflows, retrie
   - **Secure content delivery:** Curriculum files live in private **S3** with per-entry access scoping. A cron sweep migrates files from public storage to private S3.
   - **Security hardening:** CORS allowlisting, a login rate limiter that fixes IP detection behind the proxy (it reads `X-Forwarded-For`), a Strapi upgrade with CVE remediation, security headers, and an RBAC penetration test.
   - **Architecture:** I replaced ~30 hand-written routes with one CMS-driven catch-all, so publishing a new page no longer needs a deploy. I also built a standalone draft-preview microservice and publish-triggered auto-rebuild webhooks with cache-busting, and wrote incident write-ups and ops runbooks for non-technical editors.
-
-## How I think about research and AI systems
-
-The questions I care about are easy to ask and hard to answer well. *Is the signal real? Did the model understand, or did it just pattern-match? Where exactly did it fail? What happens when it meets production constraints?*
-
-I value careful data provenance, leakage-aware validation, fair baselines, and a clear line between a compelling demo and a durable system. FinAssim reflects that standard. Automating research still requires traceable evidence, executable specifications, and evaluation that can show where a model failed instead of hiding it.
 
 ## Technical toolkit
 
