@@ -1,7 +1,7 @@
 # Sebastian Rivera 🚀
 **AI/ML Engineering Manager · Agentic AI & LLM Systems · Quantitative Research**
 
-I build and lead applied AI/ML systems—from agentic workflows and RAG pipelines to fine-tuned models and production infrastructure. 
+I build and lead applied AI/ML systems—from agentic workflows and RAG pipelines to fine-tuned models and production infrastructure. Off-screen, I'm a rural homesteader applying the same systems-engineering mindset to physical infrastructure: plumbing, welding, and keeping an old truck and a 1982 BMW R100 running.
 
 🌐 [LinkedIn](https://www.linkedin.com/in/sebastian-rivera-01212) · 💻 [GitHub](https://github.com/sebrivera1)
 
@@ -29,9 +29,10 @@ I build and lead applied AI/ML systems—from agentic workflows and RAG pipeline
 
 ---
 
-## 🧰 Technical Toolkit
+## 🧰 Technical & Hands-On Toolkit
 
 * **🤖 Agentic AI & LLMs:** LangGraph, CrewAI, RAG, GraphRAG, Milvus, LanceDB, vLLM, Hugging Face, Unsloth QLoRA, PEFT.
-* **📈 ML & Statistics:** PyTorch, scikit-learn, Vision Transformers, Time-Series, Statistical Testing (McNemar, Bootstrap), R.
-* **⚙️ Data & MLOps:** PySpark, Airflow, Feast, MLflow, Databricks, W&B, FastAPI, Docker, Lambda Labs GPUs, AWS/GCP.
+* **📈 ML & Statistics:** PyTorch, C#, scikit-learn, Vision Transformers, Time-Series, Statistical Testing (McNemar, Bootstrap), R.
+* **⚙️ Data & MLOps:** Linux/Unix (CLI & Bash), PySpark, Airflow, Feast, MLflow, Databricks, W&B, FastAPI, Docker, Lambda Labs GPUs, AWS/GCP.
 * **💻 Web & Backend:** TypeScript, Node.js, Astro, Strapi 5, React, PostgreSQL.
+* **🔧 Engineering Off-Grid:** Homesteading infrastructure, welding, residential plumbing, automotive & vintage motorcycle mechanics (1982 BMW R100 airhead, old truck maintenance).
