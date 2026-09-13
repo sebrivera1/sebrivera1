@@ -1,6 +1,5 @@
 # Sebastian Rivera 🚀
 **AI/ML Engineering Manager · Agentic AI & LLM Systems · Quantitative Research**
-
 I build and lead applied AI/ML systems—from agentic workflows and RAG pipelines to fine-tuned models and production infrastructure. 
 
 🌐 [LinkedIn](https://www.linkedin.com/in/sebastian-rivera-01212) · 💻 [GitHub](https://github.com/sebrivera1)
@@ -29,7 +28,7 @@ I build and lead applied AI/ML systems—from agentic workflows and RAG pipeline
 
 ---
 
-## 🧰 Technical Toolkit
+## 🧰 Toolkit
 
 * **🤖 Agentic AI & LLMs:** LangGraph, CrewAI, RAG, GraphRAG, Milvus, LanceDB, vLLM, Hugging Face, Unsloth QLoRA, PEFT.
 * **📈 ML & Statistics:** PyTorch, scikit-learn, Vision Transformers, Time-Series, Statistical Testing (McNemar, Bootstrap), R.
