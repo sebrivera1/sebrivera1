@@ -25,11 +25,11 @@ I build and lead applied AI/ML systems—from agentic workflows and RAG pipeline
 
 ### 📊 Quant Research & Production Systems
 * ⚡ **PySpark WRDS Factor Research**: Large-scale signal construction (e.g., stock-level CAPE), long-short backtests, and regressions on CRSP/Compustat data.
-* 🌐 **Liberated Learning Web Platform**: Full-stack platform (Astro, Strapi 5, Railway microservices) serving paid curriculum and headless CMS (~50k LOC).
+* 🌐 **Liberated Learning Web Platform** *(180+ commits, ~50k LOC)*: Full production platform for an education organization spanning an Astro site, headless **Strapi 5** backend, paid curriculum portal, and supporting microservices on Railway.
 
 ---
 
-## 🧰 Toolkit
+## 🧰 Technical Toolkit
 
 * **🤖 Agentic AI & LLMs:** LangGraph, CrewAI, RAG, GraphRAG, Milvus, LanceDB, vLLM, Hugging Face, Unsloth QLoRA, PEFT.
 * **📈 ML & Statistics:** PyTorch, scikit-learn, Vision Transformers, Time-Series, Statistical Testing (McNemar, Bootstrap), R.
