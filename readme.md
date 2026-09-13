@@ -1,5 +1,6 @@
 # Sebastian Rivera 🚀
 **AI/ML Engineering Manager · Agentic AI & LLM Systems · Quantitative Research**
+
 I build and lead applied AI/ML systems—from agentic workflows and RAG pipelines to fine-tuned models and production infrastructure. 
 
 🌐 [LinkedIn](https://www.linkedin.com/in/sebastian-rivera-01212) · 💻 [GitHub](https://github.com/sebrivera1)
