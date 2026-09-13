@@ -4,19 +4,11 @@
 
 I lead applied AI/ML teams and build the systems myself: agent workflows, retrieval pipelines, fine-tuned models, and the production infrastructure under them. My background is economics, statistics, and ML, with hands-on software and DevOps depth. I like taking research-quality work all the way into systems that people use every day.
 
-## What I work on
-
-- **Leading AI/ML delivery:** turning vague business problems into measurable ML products, then building the team, delivery practices, and evaluation standards around them.
-- **Agentic and LLM systems:** multi-agent workflows with LangGraph and CrewAI, RAG pipelines, LoRA/QLoRA fine-tuning, and self-hosted model serving.
-- **Data engineering at scale:** Spark pipelines, feature stores, versioned data lakes, and orchestrated training workflows.
-- **Quantitative research:** factor construction, backtesting, time series, and careful handling of leakage, overfitting, and uncertainty.
-- **Production engineering:** shipping and running real systems, including backends, integrations, security hardening, CI/CD, and incident response.
-
 ## Selected work
 
 ### Enterprise AI — United Airlines
 - **AI for the Mechanics Toolbox app:** Applied AI features for the first AI app used by aircraft maintenance technicians on the job.
-- **AI for invoice reconciliation:** 
+- **AI for Airline Operations** Confidential 
 
 ### Agentic AI and LLM systems
 
