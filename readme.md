@@ -1,7 +1,7 @@
 # Sebastian Rivera 🚀
 **AI/ML Engineering Manager · Agentic AI & LLM Systems · Quantitative Research**
 
-I build and lead applied AI/ML systems—from agentic workflows and RAG pipelines to fine-tuned models and production infrastructure. Off-screen, I'm a rural homesteader applying the same systems-engineering mindset to physical infrastructure: plumbing, welding, and keeping an old truck and a 1982 BMW R100 running.
+I build and lead applied AI/ML systems—from agentic workflows and RAG pipelines to fine-tuned models and production infrastructure. Off-screen, I'm a husband, dog father, and rural homesteader applying the same systems-engineering mindset to physical infrastructure: plumbing, welding, and keeping an old truck and a 1982 BMW R100 running.
 
 🌐 [LinkedIn](https://www.linkedin.com/in/sebastian-rivera-01212) · 💻 [GitHub](https://github.com/sebrivera1)
 
