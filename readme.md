@@ -14,12 +14,8 @@ I lead applied AI/ML teams and build the systems myself: agent workflows, retrie
 
 - **Autonomous Quantitative Investment Research** *(UChicago MSADS capstone, 3-person team, private repo)*: A multi-agent **LangGraph** system that does the work of a junior quant researcher. It reads academic-finance papers and produces factor specifications and runnable replication code on Sharadar data. It runs 8 agents: paper triage → economic-quantity extraction → factor logic → spec planning → data mapping → spec building → time-series and cross-sectional code generation. **I was the top contributor (108 of 171 commits, ~13k lines of non-notebook code)** and owned: Data ingestion: via MinerU, Agent orchestration, Retrieval, Open-model tool-calling reliability, Inference infrastructure:, vLLM** on Lambda Labs GPUs, and Execution and evaluation infrastructure.
 
-- **Liberated Learning RAG chatbot ("Embodied Alchemy")** *(solo build, 176 commits, private repo)*: A production retrieval-augmented guidance assistant for Liberated Learning LLC, grounded in the organization's somatic, teaching, and healing materials. I built it end to end:
-  - **Retrieval:** **LangChain** with a persistent **Zilliz Cloud (managed Milvus)** vector store, so the knowledge base isn't rebuilt for each chat. It uses sentence-transformer embeddings and top-k retrieval, and answers include conversation history and optional source citations.
-  - **Multimodal ingestion:** PDF, text, audio, and video. Audio and video are transcribed through **AssemblyAI**, and document metadata is validated with schema-error recovery before indexing.
-  - **Swappable LLM backends:** OpenAI (GPT-4o-mini), **Kimi-K2-Instruct**, or any self-hosted **vLLM** endpoint, chosen through configuration.
-  - **Serving:** a **FastAPI** service with guidance, admin-initialization, collection-status, and file-upload endpoints (admin-key auth, CORS), plus a password-protected, custom-themed **Gradio** chat front end. Deployed on Railway and DigitalOcean, with separate branches for the API and the UI.
-
+- **Liberated Learning RAG chatbot ("Embodied Alchemy")** *(solo build, 176 commits, private repo)*: A production retrieval-augmented guidance assistant for Liberated Learning LLC, grounded in the organization's somatic, teaching, and healing materials.
+  
 ### Applied ML and computer vision
 
 - **SafeNet** *(private)*: Content-safety image classification. I ran a controlled comparison of three ways to adapt a ViT classifier on human-labeled screenshots: (A) partial fine-tuning with layer freezing, (B) a lightweight head on frozen ViT features, and (C) **LoRA via PEFT**. The comparison used repeated stratified k-fold cross-validation with per-fold seed control. Evaluation went beyond accuracy: ROC-AUC, PR-AUC, and balanced accuracy, bootstrap confidence intervals, **McNemar's test** for paired model comparison, and threshold diagnostics tuned to catch false negatives.
