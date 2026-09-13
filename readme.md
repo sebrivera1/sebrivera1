@@ -33,10 +33,6 @@ I lead applied AI/ML teams and build the systems myself: agent workflows, retrie
 ### Production systems I ship
 
 - **liberated-learning-web**: A full production platform for an education organization. It has **180+ commits and ~50k lines** across an Astro site, a headless **Strapi 5** backend, a paid curriculum portal, and supporting microservices, all on Railway.
-  - **Commerce-to-access automation:** A Shopify order-paid webhook creates buyer accounts and grants curriculum access automatically. I **found and fixed a race condition in find-or-create user under a live stress test**, made email delivery idempotent, and added webhook timeouts.
-  - **Secure content delivery:** Curriculum files live in private **S3** with per-entry access scoping. A cron sweep migrates files from public storage to private S3.
-  - **Security hardening:** CORS allowlisting, a login rate limiter that fixes IP detection behind the proxy (it reads `X-Forwarded-For`), a Strapi upgrade with CVE remediation, security headers, and an RBAC penetration test.
-  - **Architecture:** I replaced ~30 hand-written routes with one CMS-driven catch-all, so publishing a new page no longer needs a deploy. I also built a standalone draft-preview microservice and publish-triggered auto-rebuild webhooks with cache-busting, and wrote incident write-ups and ops runbooks for non-technical editors.
 
 ## Technical toolkit
 
