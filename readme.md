@@ -1,49 +1,36 @@
 # Sebastian Rivera
-
 **AI/ML Engineering Manager · Agentic AI & LLM Systems · Quantitative Research**
 
-I lead applied AI/ML teams and build the systems myself: agent workflows, retrieval pipelines, fine-tuned models, and the production infrastructure under them. My background is economics, statistics, and ML, with hands-on software and DevOps depth. I like taking research-quality work all the way into systems that people use every day.
+I build and lead applied AI/ML systems—from agentic workflows and RAG pipelines to fine-tuned models and production infrastructure. 
 
-## Selected work
+[LinkedIn](https://www.linkedin.com/in/sebastian-rivera-01212) · [GitHub](https://github.com/sebrivera1)
 
-### Enterprise AI — United Airlines
-- **AI for the Mechanics Toolbox app:** Applied AI features for the first AI app used by aircraft maintenance technicians on the job.
-- **AI for Airline Operations** Confidential 
+---
 
-### Agentic AI and LLM systems
+## Selected Work
 
-- **Autonomous Quantitative Investment Research** *(UChicago MSADS capstone, 3-person team, private repo)*: A multi-agent **LangGraph** system that does the work of a junior quant researcher. It reads academic-finance papers and produces factor specifications and runnable replication code on Sharadar data. It runs 8 agents: paper triage → economic-quantity extraction → factor logic → spec planning → data mapping → spec building → time-series and cross-sectional code generation. **I was the top contributor (108 of 171 commits, ~13k lines of non-notebook code)** and owned: Data ingestion: via MinerU, Agent orchestration, Retrieval, Open-model tool-calling reliability, Inference infrastructure:, vLLM** on Lambda Labs GPUs, and Execution and evaluation infrastructure.
+### Enterprise AI
+* **United Airlines — Mechanics AI:** Core AI features for the first aircraft maintenance technician app used in the field.
 
-- **Liberated Learning RAG chatbot ("Embodied Alchemy")** *(solo build, 176 commits, private repo)*: A production retrieval-augmented guidance assistant for Liberated Learning LLC, grounded in the organization's somatic, teaching, and healing materials.
-  
-### Applied ML and computer vision
+### Agentic AI & LLM Systems
+* **Multi-Agent Quant Research System** *(UChicago MSADS Capstone)*: 8-agent **LangGraph** pipeline that converts academic finance papers into executable factor specifications and backtests.
+  * *Lead Contributor (108/171 commits, ~13k LOC).* Owned vLLM inference on Lambda Labs GPUs, MinerU parsing, orchestration, and evaluation.
+* **Liberated Learning RAG Assistant**: Production retrieval-augmented assistant grounded in proprietary educational and somatic materials.
 
-- **SafeNet** *(private)*: Content-safety image classification. I ran a controlled comparison of three ways to adapt a ViT classifier on human-labeled screenshots: (A) partial fine-tuning with layer freezing, (B) a lightweight head on frozen ViT features, and (C) **LoRA via PEFT**. The comparison used repeated stratified k-fold cross-validation with per-fold seed control. Evaluation went beyond accuracy: ROC-AUC, PR-AUC, and balanced accuracy, bootstrap confidence intervals, **McNemar's test** for paired model comparison, and threshold diagnostics tuned to catch false negatives.
-- **LLM fine-tuning:** Supervised fine-tuning of Llama-2-7B and TinyLlama with **Unsloth 4-bit QLoRA** and TRL's `SFTTrainer` on instruction data, tracked in Weights & Biases.
-- **North Atlantic hurricane frequency and outcome prediction:** A hurricane-risk model trained on 60+ years of data. It combines NASA/NOAA climate signals (sea-surface temperature, wind shear) with EM-DAT and World Bank impact data to forecast hurricane frequency and economic damage across U.S. regions.
+### Applied ML & CV
+* **SafeNet**: ViT image safety classifier optimized using **PEFT/LoRA**, evaluated via McNemar’s testing, bootstrap CIs, and threshold diagnostics.
+* **LLM Fine-Tuning**: Supervised fine-tuning of Llama-2-7B & TinyLlama with **Unsloth 4-bit QLoRA** and W&B tracking.
+* **Hurricane Impact Forecasting**: Predictive model using 60+ years of NOAA, NASA, and World Bank data to forecast regional economic damage.
 
-### Quantitative research
+### Quant Research & Production Systems
+* **PySpark WRDS Factor Research**: Large-scale signal construction (e.g., stock-level CAPE), long-short backtests, and regressions on CRSP/Compustat data.
+* **Liberated Learning Web Platform**: Full-stack platform (Astro, Strapi 5, Railway microservices) serving paid curriculum and headless CMS (~50k LOC).
 
-- **Factor research on WRDS data with PySpark:** Signal construction, portfolio sorts, cross-sectional regressions, and portfolio optimization on CRSP/Compustat data pulled from WRDS and FRED. Heavy joins and window operations run in **PySpark**. One example is a stock-level CAPE (Campbell & Shiller) value signal with a decile long-short backtest.
+---
 
-### Production systems I ship
+## Technical Toolkit
 
-- **liberated-learning-web**: A full production platform for an education organization. It has **180+ commits and ~50k lines** across an Astro site, a headless **Strapi 5** backend, a paid curriculum portal, and supporting microservices, all on Railway.
-
-## Technical toolkit
-
-**LLM and agentic AI:** LangGraph, CrewAI, LangChain, ReAct tool-calling agents, RAG, BM25 retrieval, Milvus/Zilliz Cloud, LanceDB, GraphRAG, Neo4j, MinerU document parsing, AssemblyAI, vLLM (multi-LoRA serving), Kimi-K2, Hugging Face Transformers, PEFT/LoRA, Unsloth QLoRA, TRL, LLM-as-judge evaluation, OpenAI/Anthropic APIs
-
-**ML and modeling:** Python, PyTorch, scikit-learn, Vision Transformers, time-series analysis, Monte Carlo simulation, hyperparameter optimization, statistical testing (bootstrap, McNemar, κ agreement), R
-
-**Data engineering:** PySpark, Apache Airflow, Feast, LakeFS, SQL/Postgres, WRDS (CRSP/Compustat), pandas, Parquet
-
-**MLOps and infrastructure:** MLflow, Databricks, Weights & Biases, FastAPI, Gradio, Docker, Railway, Lambda Labs GPUs, AWS S3, GCP, CI/CD, Git/GitHub
-
-**Web and backend:** TypeScript/JavaScript, Node.js, Astro, Strapi, Shopify webhooks, React
-
-## Let's connect
-
-- [LinkedIn](https://www.linkedin.com/in/sebastian-rivera-01212)
-- [GitHub](https://github.com/sebrivera1)
-
+* **Agentic AI & LLMs:** LangGraph, CrewAI, RAG, GraphRAG, Milvus, LanceDB, vLLM, Hugging Face, Unsloth QLoRA, PEFT.
+* **ML & Statistics:** PyTorch, scikit-learn, Vision Transformers, Time-Series, Statistical Testing (McNemar, Bootstrap), R.
+* **Data & MLOps:** PySpark, Airflow, Feast, MLflow, Databricks, W&B, FastAPI, Docker, Lambda Labs GPUs, AWS/GCP.
+* **Web & Backend:** TypeScript, Node.js, Astro, Strapi 5, React, PostgreSQL.
