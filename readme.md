@@ -19,7 +19,7 @@ I build and lead applied AI/ML systems—from agentic workflows and RAG pipeline
 * 🌿 **Liberated Learning RAG Assistant**: Production retrieval-augmented assistant grounded in proprietary educational and somatic materials.
 
 ### 🔬 Applied ML & CV
-* 🛡️ **SafeNet**: ViT image safety classifier optimized using **PEFT/LoRA**, evaluated via McNemar’s testing, bootstrap CIs, and threshold diagnostics.
+* 🛡️ **NalaNet™**: ViT image safety classifier optimized using **PEFT/LoRA**, evaluated via McNemar’s testing, bootstrap CIs, and threshold diagnostics.
 * 🦙 **LLM Fine-Tuning**: Supervised fine-tuning of Llama-2-7B & TinyLlama with **Unsloth 4-bit QLoRA** and W&B tracking.
 * 🌪️ **Hurricane Impact Forecasting**: Predictive model using 60+ years of NOAA, NASA, and World Bank data to forecast regional economic damage.
 
